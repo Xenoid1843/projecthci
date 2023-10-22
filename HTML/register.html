@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VokemonS</title>
+    <link rel="stylesheet" href="../CSS/register.css">
+    <link rel="stylesheet" href="../CSS/footer.css">
+    <link rel="stylesheet" href="../CSS/navbar.css">
+    <link rel="icon" href="../Assets/PokGOLogo.jpg">
+    <script src="../JS/register.js"></script>
+</head>
+<body>
+    <video autoplay loop muted plays-inline class="background-clip">
+        <source src="../Assets/vid5.mp4">
+    </video>
+    <a href="home.html">
+        <img src="../Assets/PokemonGoLogo.png" alt="" class="poklogo">
+    </a>
+    <nav class="navbar">
+        <div class="container">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="news.html">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pokemon.html">Pokemon</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="register.html">Register</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="tour.html">Tournament</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="kotak">
+    <form name="registration" onsubmit="return validateForm()">
+        <label for="name">Name
+            <input type="text" id="name" name="name">
+        </label>
+    
+        <label for="email">Email
+            <input type="email" id="email" name="email">
+        </label>
+    
+        <label for="password">Password
+            <input type="password" id="password" name="password">
+        </label>
+        
+        <label for="confirmPassword">Confirm Password
+            <input type="password" id="confirmPassword" name="confirmPassword">
+        </label>
+    
+        <label>Gender</label>
+        <div class="gender-options">
+            <input type="radio" id="male" name="gender" value="Male"> Male
+            <input type="radio" id="female" name="gender" value="Female"> Female
+        </div>
+
+        <label id="terms-label" for="terms">I agree to the Terms and Conditions
+            <input type="checkbox" id="terms" name="terms">
+        </label>
+        
+        <span class="error" id="error-message"></span><br>
+    
+        <button class="custom-btn btn-3" id="btn-3"><span><input type="submit" value="Register Now"></span></button>
+      </form>
+    </div>
+</body>
+<br>
+<footer class="website-footer">
+    <div>
+        <p>Our Social Media</p>
+        <br>
+        <ul>
+            <li>
+                <a href="https://twitter.com">
+                    <img src="../Assets/twt.png" alt="" class="twt">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.google.com/gmail/about/">
+                    <img src="../Assets/gmail.png" alt="" class="gmail">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com">
+                    <img src="../Assets/yt.png" alt="" class="yt">
+                </a>
+            </li>
+            <li>
+                <a href="https://play.google.com/store/games?hl=id&gl=US">
+                    <img src="../Assets/pst.png" alt="" class="pst">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com">
+                    <img src="../Assets/ig.png" alt="" class="ig">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com">
+                    <img src="../Assets/fb.png" alt="" class="fb">
+                </a>
+            </li>
+        </ul>
+    </div>
+</footer>
+</html>

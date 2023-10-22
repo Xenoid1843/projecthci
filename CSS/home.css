@@ -1,0 +1,213 @@
+body{
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.nws{
+    color: red;
+}
+
+.home-content .join{
+    color: white;
+}
+
+h1{
+    color: white;
+}
+
+h3{
+    color: white;
+}
+
+.background-clip{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.7);
+  z-index: -100;
+}
+
+/* Home Page Styles */
+.home-content {
+    text-align: center;
+    margin: 100px auto;
+}
+
+.home-content h1 {
+    font-size: 36px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.home-content p {
+    font-size: 18px;
+    color: yellow;
+    margin-bottom: 30px;
+}
+
+button {
+    margin: 20px;
+  }
+  .custom-btn {
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
+  
+  .btn-3 {
+    background: gray;
+  background: linear-gradient(0deg, gray 80%);
+    width: 130px;
+    height: 40px;
+    line-height: 42px;
+    padding: 0;
+    border: none;
+    
+  }
+  .btn-3 span {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .btn-3:before,
+  .btn-3:after {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+     background: white;
+    transition: all 0.3s ease;
+  }
+  .btn-3:before {
+    height: 0%;
+    width: 2px;
+  }
+  .btn-3:after {
+    width: 0%;
+    height: 2px;
+  }
+  .btn-3:hover{
+     background: transparent;
+    box-shadow: none;
+  }
+  .btn-3:hover:before {
+    height: 100%;
+  }
+  .btn-3:hover:after {
+    width: 100%;
+  }
+  .btn-3 span:hover{
+     color: white;
+  }
+  .btn-3 span:before,
+  .btn-3 span:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+     background: white;
+    transition: all 0.3s ease;
+  }
+  .btn-3 span:before {
+    width: 2px;
+    height: 0%;
+  }
+  .btn-3 span:after {
+    width: 0%;
+    height: 2px;
+  }
+  .btn-3 span:hover:before {
+    height: 100%;
+  }
+  .btn-3 span:hover:after {
+    width: 100%;
+  }
+
+/* Styling for encouragement section */
+.encouragement {
+    text-align: center;
+    margin-top: -90px;
+}
+
+.encouragement h2 {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.encouragement p {
+    font-size: 18px;
+    color: blue;
+    margin-bottom: 30px;
+}
+
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling for social media icons */
+.btn-floating {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+.btn-floating:hover {
+    background-color: #ffcc00;
+    color: #333;
+}
+
+/* Styling for font-awesome icons */
+.btn-floating i {
+    font-size: 20px;
+}
+
+/* Styling for heading */
+.h4 {
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+@media (min-ascept-ratio:16/9){
+    .background-clip{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (min-ascept-ratio:16/9){
+    .background-clip{
+        width: auto;
+        height: 100%;
+    }
+}

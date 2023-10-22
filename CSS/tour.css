@@ -1,0 +1,72 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.background-clip{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.4);
+    z-index: -100;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.match {
+    border: 2px solid red;
+    background-color: white;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    max-width: 750px; 
+}
+
+.match-info {
+    flex: 1;
+    margin-left: 90px;
+}
+
+.match-result {
+    flex: 1;
+    text-align: right;
+}
+
+.trainer-logo img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.match-status {
+    text-align: center;
+    background-color: ;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.match-status .past-match {
+    background-color: #f44336; 
+}
+
+.match-status .upcoming-match {
+    background-color: #4caf50; 
+}
+
+.match-status .ongoing-match {
+    background-color: #2196F3; 
+}
+
+.matches{
+    margin-left: 200px;
+}
+

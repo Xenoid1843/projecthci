@@ -1,0 +1,95 @@
+.navbar {
+    background-color: transparent;
+    margin-top: -40px;
+    margin-left: -25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin: 0; 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-toggler {
+    border: none; 
+    cursor: pointer; 
+    background: none; 
+    padding: 0; 
+}
+
+.navbar-toggler .bar {
+    display: block;
+    width: 30px;
+    height: 3px;
+    margin: 6px auto;
+    background-color: #333;
+    transition: background-color 0.3s; 
+}
+
+.navbar-toggler:hover .bar {
+    background-color: #007bff; 
+}
+
+/* Tambahkan style ini untuk .navbar-nav */
+.navbar-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end; /* Menggeser elemen-elemen ke pojok kanan */
+    flex-grow: 1; /* Mengisi ruang yang tersedia */
+}
+
+/* Tambahkan style ini untuk .nav-item */
+.nav-item {
+    margin-left: 20px; /* Menambahkan ruang antara item-item */
+}
+
+
+.nav-link {
+    font-size: 18px; 
+    color: white; 
+    text-decoration: none; 
+    transition: color 0.3s; 
+}
+
+.nav-link:hover {
+    color: yellow; 
+}
+
+.poklogo{
+    width: 125px; 
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.container {
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 0 20px; 
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-nav {
+        flex-direction: column;
+        margin-top: 15px;
+    }
+
+    .navbar-nav .nav-item {
+        margin: 10px 0;
+    }
+
+    .navbar.show .navbar-collapse {
+        display: block;
+    }
+}

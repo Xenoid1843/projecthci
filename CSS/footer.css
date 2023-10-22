@@ -1,0 +1,75 @@
+/* Styling for the footer */
+.website-footer {
+    background-color: transparent;
+    color: #fff;
+    margin-top: 130px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.website-footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.website-footer ul li {
+    margin-left: 10px; /* Jarak antara gambar-gambar */
+}
+
+.website-footer img {
+    width: 30px; /* Lebar gambar yang Anda inginkan */
+}
+
+.website-footer .twt{
+    width: 27px;
+}
+
+.website-footer .gmail{
+    width: 38px;
+}
+
+.website-footer .yt{
+    width: 28px;
+}
+
+.website-footer .pst{
+    width: 37px;
+}
+
+.website-footer .ig{
+    width: 50px; 
+    margin-left: -15px;
+}
+
+.website-footer .fb{
+    width: 26px;
+    margin-left: -10px;
+}
+
+.website-footer .twt:hover{
+    transform: scale(1.2);
+}
+  
+.website-footer .gmail:hover{
+    transform: scale(1.2);
+}
+  
+.website-footer .yt:hover{
+    transform: scale(1.2);
+}
+  
+.website-footer .pst:hover{
+    transform: scale(1.2); 
+}
+  
+.website-footer .ig:hover{
+    transform: scale(1.2); 
+}
+  
+.website-footer .fb:hover{
+    transform: scale(1.2);
+}
+  
