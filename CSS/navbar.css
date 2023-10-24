@@ -40,21 +40,18 @@
     background-color: #007bff; 
 }
 
-/* Tambahkan style ini untuk .navbar-nav */
 .navbar-nav {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: flex-end; /* Menggeser elemen-elemen ke pojok kanan */
-    flex-grow: 1; /* Mengisi ruang yang tersedia */
+    justify-content: flex-end;
+    flex-grow: 1;
 }
 
-/* Tambahkan style ini untuk .nav-item */
 .nav-item {
-    margin-left: 20px; /* Menambahkan ruang antara item-item */
+    margin-left: 20px;
 }
-
 
 .nav-link {
     font-size: 18px; 

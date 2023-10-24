@@ -29,24 +29,27 @@
 
 .website-footer .gmail{
     width: 38px;
+    margin-left: 10px;
 }
 
 .website-footer .yt{
-    width: 28px;
+    width: 37px;
+    margin-left: 3px;
 }
 
 .website-footer .pst{
-    width: 37px;
+    width: 17px;
+    margin-left: 10px;
 }
 
 .website-footer .ig{
-    width: 50px; 
-    margin-left: -15px;
+    width: 33px; 
+    margin-left: 6px;
 }
 
 .website-footer .fb{
     width: 26px;
-    margin-left: -10px;
+    margin-left: 3px;
 }
 
 .website-footer .twt:hover{

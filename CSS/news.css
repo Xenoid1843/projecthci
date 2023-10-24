@@ -81,3 +81,22 @@ body{
 a{
     margin-top: 20px;
 }
+
+.news-item:hover {
+    padding: 10px;
+    background-color: red;
+    color: #fff;
+    animation: glowing 1.5s infinite alternate;
+}
+
+@keyframes glowing {
+    0% {
+        background-color: red;
+        box-shadow: none;
+    }
+    
+    100% {
+        background-color: orange;
+        box-shadow: 0 0 10px 2px orange;
+    }
+}

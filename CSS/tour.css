@@ -26,12 +26,12 @@ h1 {
     padding: 10px;
     display: flex;
     align-items: center;
-    max-width: 750px; 
+    max-width: 780px; 
 }
 
 .match-info {
     flex: 1;
-    margin-left: 90px;
+    margin-left: 30px;
 }
 
 .match-result {
@@ -52,6 +52,7 @@ h1 {
     border-radius: 5px;
     margin-top: 10px;
     font-weight: bold;
+    margin-right: 30px;
 }
 
 .match-status .past-match {
@@ -67,6 +68,6 @@ h1 {
 }
 
 .matches{
-    margin-left: 200px;
+    margin-left: 170px;
 }
 
